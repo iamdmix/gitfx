@@ -11,8 +11,6 @@ import (
     "github.com/spf13/cobra"
 )
 
-var version = "0.1.0" // Current GitFx CLI version
-
 var rootCmd = &cobra.Command{
     Use:     "gix",
     Short:   "GitFx - A friendlier Git CLI",
